@@ -27,9 +27,7 @@ challenging mode collapse issue, the effect is not obvious.
     <img src="Stackelberg GAN/images/exp1.png" width="600"\>
 </p>
 
-*Stackelberg GAN outperforms multi-branch models.* We compare performance of multi-branch GAN
-and Stackelberg GAN with objective functions:
-(Multi-Branch GAN)\\(\phi(\frac{1}{I}\sum_{i=1}^I\gamma_i;\theta)\\)
+*Stackelberg GAN outperforms multi-branch models.* We compare performance of multi-branch GAN (i.e., GAN generator with multi-branch architecture) and Stackelberg GAN. The performance of Stackelberg GAN is also better than multi-branch GAN of much larger capacity.
 
 #### Running Example
 <p align="center">
