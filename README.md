@@ -30,13 +30,15 @@ Stackelberg GAN is a general framework which can be built on top of all variants
     <img src="Stackelberg GAN/images/architecture.png" width="600"\>
 </p>
 
-<p align="center">
-    <img src="Stackelberg GAN/images/converge.gif" width="600"\>
-</p>
+
 
 ## Experimental Results
 
 ### Mixture of Gaussians
+
+<p align="center">
+    <img src="Stackelberg GAN/images/converge.gif" width="400"\>
+</p>
 
 We test the performance of varying architectures of GANs on a synthetic mixture of Gaussians dataset with 8 modes and 0.01 standard deviation. We observe the following phenomena:
 
