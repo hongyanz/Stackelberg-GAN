@@ -4,6 +4,10 @@ This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equili
 The code is written in python and requires matplotlib, torch, torchvision and the tqdm library.
 
 ## Architecture of Stackelberg GAN
+
+Stackelberg GAN is a general framework which can be built on top of all variants of standard GANs. The
+objective function is simply an ensemble of losses w.r.t. all possible pairs of generators and discriminator:
+
 <p align="center">
     <img src="Stackelberg GAN/images/architecture.png" width="600"\>
 </p>
