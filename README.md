@@ -3,6 +3,11 @@ This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equili
 
 The code is written in python and requires matplotlib, torch, torchvision and the tqdm library.
 
+## Architecture of Stackelberg GAN
+<p align="center">
+    <img src="example.png" width="800"\>
+</p>
+
 ## Experimental Results
 
 ### Mixture of Gaussians
