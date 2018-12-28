@@ -43,6 +43,12 @@ modes when the modes are symmetric and every generator has same capacity.
     <img src="Stackelberg GAN/images/exp3.png" width="600"\>
 </p>
 
+### MNIST Dataset
+The following figure shows the diversity of generated digits by Stackelberg GAN with varying number of generators.
+When there is only one generator, the digits are not very diverse with many "1"’s and much fewer "2"’s.
+As the number of generators increases, the images tend to be more diverse. In particular, for 10-generator
+Stackelberg GAN, each generator is associated with one or two digits without any digit being missed.
+
 ## Reference
 For technical details and full experimental results, see [the paper](https://arxiv.org/abs/1811.08010).
 ```
