@@ -32,7 +32,7 @@ parser.add_argument('--img_size', type=int, default=28, help='size of each image
 parser.add_argument('--channels', type=int, default=1, help='number of image channels')
 parser.add_argument('--sample_interval', type=int, default=400, help='interval betwen image samples')
 parser.add_argument('--n_paths_D', type=int, default=1, help='number of paths of discriminator')
-parser.add_argument('--n_paths_G', type=int, default=1, help='number of paths of generator')
+parser.add_argument('--n_paths_G', type=int, default=10, help='number of paths of generator')
 opt = parser.parse_args()
 print(opt)
 
@@ -54,11 +54,9 @@ class Generator(nn.Module):
         modules = nn.ModuleList()
         for _ in range(opt.n_paths_G):
             modules.append(nn.Sequential(
-            *block(opt.latent_dim, 128, normalize=False),
-            *block(128, 256),
-            *block(256, 512),
-            *block(512, 1024),
-            nn.Linear(1024, int(np.prod(img_shape))),
+            *block(opt.latent_dim, 100, normalize=False),
+            *block(100, 512),
+            nn.Linear(512, int(np.prod(img_shape))),
             nn.Tanh()
             ))
         self.paths = modules
@@ -188,6 +186,3 @@ for epoch in tqdm(range(opt.n_epochs)):
         batches_done = epoch * len(dataloader) + i
         if batches_done % opt.sample_interval == 0:
             save_image(plot_imgs[:100], 'images_ensemble_mnist/%d.png' % batches_done, nrow=10, normalize=True)
-
-
-
