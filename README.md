@@ -27,7 +27,7 @@ The command `python gan_stackelberg_mG.py --help` gives the help information abo
 Stackelberg GAN is a general framework which can be built on top of all variants of standard GANs. The key idea is to apply multiple generators which team up to play against the discriminator.
 
 <p align="center">
-    <img src="Stackelberg GAN/images/architecture.png" width="600"\>
+    <img src="Stackelberg GAN/images/architecture.png" width="500"\>
 </p>
 
 
