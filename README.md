@@ -5,9 +5,9 @@ The code is written in python and requires matplotlib, torch, torchvision and th
 
 ## Experimental Results
 
-# Mixture of Gaussians
+### Mixture of Gaussians
 
-## Running Example
+#### Running Example
 <p align="center">
     <img src="example.png" width="800"\>
 </p>
