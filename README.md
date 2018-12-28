@@ -5,7 +5,7 @@ The code is written in python and requires matplotlib, torch, torchvision and th
 
 ## Architecture of Stackelberg GAN
 <p align="center">
-    <img src="example.png" width="800"\>
+    <img src="images/archtecture.pdf" width="800"\>
 </p>
 
 ## Experimental Results
