@@ -22,6 +22,7 @@ import matplotlib
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
+os.makedirs('images_ensemble_mG', exist_ok=True)
 shutil.rmtree('images_ensemble_mG')
 os.makedirs('images_ensemble_mG', exist_ok=True)
 
