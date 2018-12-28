@@ -27,6 +27,16 @@ challenging mode collapse issue, the effect is not obvious
     <img src="Stackelberg GAN/images/exp1.png" width="600"\>
 </p>
 
+*Naïvely increasing capacity of one-generator architecture does not alleviate mode collapse*. It shows
+that the multi-generator architecture in the Stackelberg GAN effectively alleviates the mode collapse issue.
+Though naïvely increasing capacity of one-generator architecture alleviates mode dropping issue, for more
+challenging mode collapse issue, the effect is not obvious
+
+#### Running Example
+<p align="center">
+    <img src="Stackelberg GAN/images/exp1.png" width="600"\>
+</p>
+
 ## Reference
 For technical details and full experimental results, see [the paper](https://arxiv.org/abs/1811.08010).
 ```
