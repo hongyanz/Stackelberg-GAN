@@ -5,7 +5,7 @@ The code is written in python and requires matplotlib, torch, torchvision and th
 
 ## Architecture of Stackelberg GAN
 
-Stackelberg GAN is a general framework which can be built on top of all variants of standard GANs. The key idea is to apply multiple generators (followers) which team up to play against the discriminator (leader).
+Stackelberg GAN is a general framework which can be built on top of all variants of standard GANs. The key idea is to apply multiple generators which team up to play against the discriminator.
 
 <p align="center">
     <img src="Stackelberg GAN/images/architecture.png" width="600"\>
