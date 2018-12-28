@@ -49,6 +49,11 @@ When there is only one generator, the digits are not very diverse with many "1"â
 As the number of generators increases, the images tend to be more diverse. In particular, for 10-generator
 Stackelberg GAN, each generator is associated with one or two digits without any digit being missed.
 
+#### Running Example
+<p align="center">
+    <img src="Stackelberg GAN/images/exp4.png" width="600"\>
+</p>
+
 ## Reference
 For technical details and full experimental results, see [the paper](https://arxiv.org/abs/1811.08010).
 ```
