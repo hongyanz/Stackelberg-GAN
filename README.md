@@ -17,7 +17,7 @@ Stackelberg GAN is a general framework which can be built on top of all variants
 
 We test the performance of varying architectures of GANs on a synthetic mixture of Gaussians dataset with 8 modes and 0.01 standard deviation. We observe the following phenomena:
 
-Naïvely increasing capacity of one-generator architecture does not alleviate mode collapse. It shows
+*Naïvely increasing capacity of one-generator architecture does not alleviate mode collapse*. It shows
 that the multi-generator architecture in the Stackelberg GAN effectively alleviates the mode collapse issue.
 Though naïvely increasing capacity of one-generator architecture alleviates mode dropping issue, for more
 challenging mode collapse issue, the effect is not obvious
