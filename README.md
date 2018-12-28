@@ -24,7 +24,7 @@ challenging mode collapse issue, the effect is not obvious
 
 #### Running Example
 <p align="center">
-    <img src="example.png" width="800"\>
+    <img src="Stackelberg GAN/images/exp1.png" width="600"\>
 </p>
 
 ## Reference
