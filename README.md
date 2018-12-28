@@ -10,6 +10,7 @@ $ wget https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 $ bash Anaconda3-5.1.0-Linux-x86_64.sh
 $ source ~/.bashrc
 $ conda install pytorch=0.4.1
+```
 
 ## Architecture of Stackelberg GAN
 
