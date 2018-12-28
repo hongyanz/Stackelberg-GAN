@@ -3,6 +3,14 @@ This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equili
 
 The code is written in python and requires matplotlib, torch, torchvision and the tqdm library.
 
+## Install
+This code depends on python 3.6, pytorch 0.3.1 and numpy. We suggest to install the dependencies using Anaconda or Miniconda. Here is an exemplary command:
+```
+$ wget https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+$ bash Anaconda3-5.1.0-Linux-x86_64.sh
+$ source ~/.bashrc
+$ conda install pytorch=0.4.1
+
 ## Architecture of Stackelberg GAN
 
 Stackelberg GAN is a general framework which can be built on top of all variants of standard GANs. The key idea is to apply multiple generators which team up to play against the discriminator.
