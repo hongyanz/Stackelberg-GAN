@@ -30,7 +30,9 @@ Stackelberg GAN is a general framework which can be built on top of all variants
     <img src="Stackelberg GAN/images/architecture.png" width="600"\>
 </p>
 
-![converge]("Stackelberg GAN/images/converge.gif")
+<p align="center">
+    <img src="Stackelberg GAN/images/converge.gif" width="600"\>
+</p>
 
 ## Experimental Results
 
