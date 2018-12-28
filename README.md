@@ -1,5 +1,5 @@
 # Stackelberg-GAN
-This is the code for the paper "Deep Neural Networks with Multi-Branch Architectures Are Less Non-Convex".
+This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures".
 
 The code is written in python and requires matplotlib, torch, torchvision and the tqdm library.
 
