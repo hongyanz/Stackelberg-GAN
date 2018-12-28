@@ -63,8 +63,8 @@ class Generator(nn.Module):
         modules = nn.ModuleList()
         for _ in range(opt.n_paths_G):
             modules.append(nn.Sequential(
-            *block(opt.latent_dim, 16, normalize=False),
-            nn.Linear(16, 2),
+            *block(opt.latent_dim, 32, normalize=False),
+            nn.Linear(32, 2),
             nn.Tanh()
             ))
         self.paths = modules
