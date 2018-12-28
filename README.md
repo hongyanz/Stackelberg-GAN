@@ -7,6 +7,8 @@ The code is written in python and requires matplotlib, torch, torchvision and th
 
 ### Mixture of Gaussians
 
+We test the performance of varying architectures of GANs on a synthetic mixture of Gaussians dataset with 8 modes and 0.01 standard deviation.
+
 #### Running Example
 <p align="center">
     <img src="example.png" width="800"\>
