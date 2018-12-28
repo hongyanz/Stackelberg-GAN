@@ -20,17 +20,15 @@ We test the performance of varying architectures of GANs on a synthetic mixture 
 *Naïvely increasing capacity of one-generator architecture does not alleviate mode collapse*. It shows
 that the multi-generator architecture in the Stackelberg GAN effectively alleviates the mode collapse issue.
 Though naïvely increasing capacity of one-generator architecture alleviates mode dropping issue, for more
-challenging mode collapse issue, the effect is not obvious
+challenging mode collapse issue, the effect is not obvious.
 
 #### Running Example
 <p align="center">
     <img src="Stackelberg GAN/images/exp1.png" width="600"\>
 </p>
 
-*Naïvely increasing capacity of one-generator architecture does not alleviate mode collapse*. It shows
-that the multi-generator architecture in the Stackelberg GAN effectively alleviates the mode collapse issue.
-Though naïvely increasing capacity of one-generator architecture alleviates mode dropping issue, for more
-challenging mode collapse issue, the effect is not obvious
+*Stackelberg GAN outperforms multi-branch models.* We compare performance of multi-branch GAN
+and Stackelberg GAN with objective functions:
 
 #### Running Example
 <p align="center">
