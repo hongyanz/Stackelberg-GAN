@@ -28,6 +28,7 @@ Stackelberg GAN is a general framework which can be built on top of all variants
 
 <p align="center">
     <img src="Stackelberg GAN/images/architecture.png" width="500"\>
+	fffffff
 </p>
 
 
