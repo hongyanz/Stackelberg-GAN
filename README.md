@@ -20,7 +20,7 @@ To get started, cd into the directory. Then runs the scripts:
 * gan_mnist_fashion_classifier.py is a demo on the performance of Stackelberg GAN on fashion-MNIST dataset.
 
 ## Using the code
-The command `python gan_stackelberg_mG.py --help` gives the help information about how to run the code.
+The command `python xxx.py --help` gives the help information about how to run the code.
 
 ## Architecture of Stackelberg GAN
 
