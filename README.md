@@ -2,7 +2,7 @@
 This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures".
 
 ## Install
-This code depends on python 3.6, pytorch 0.4.1 and Tensorflow (version>=1.4.1). We suggest to install the dependencies using Anaconda or Miniconda. Here is an exemplary command:
+This code depends on python 3.6, pytorch 0.4.1 and Tensorflow (version>=1.4.1, for CIFAR-10 experiments). We suggest to install the dependencies using Anaconda or Miniconda. Here is an exemplary command:
 ```
 $ wget https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 $ bash Anaconda3-5.1.0-Linux-x86_64.sh
