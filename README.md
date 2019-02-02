@@ -1,8 +1,6 @@
 # Stackelberg-GAN
 This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures".
 
-The code is written in python and requires numpy, matplotlib, torch, torchvision and the tqdm library.
-
 ## Install
 This code depends on python 3.6, pytorch 0.4.1 and Tensorflow (version>=1.4.1). We suggest to install the dependencies using Anaconda or Miniconda. Here is an exemplary command:
 ```
