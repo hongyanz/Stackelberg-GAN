@@ -1,5 +1,5 @@
 # Stackelberg-GAN
-This is the code for the paper "Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures".
+This is the code for [the paper](https://arxiv.org/abs/1811.08010) "Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures".
 
 ## Install
 This code depends on python 3.6, pytorch 0.4.1 (for the experiemnts of mixture of Gaussians, MNIST, and Fashion MNIST) and Tensorflow (version>=1.4.1, for CIFAR-10 and Tiny Imagenet experiments). We suggest to install the dependencies using Anaconda or Miniconda. Here is an exemplary command:
